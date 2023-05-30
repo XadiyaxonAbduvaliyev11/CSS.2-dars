@@ -1,0 +1,70 @@
+body{
+    background-color: brown;
+    background-image: url("../rasmlar/tabiat.jfif");
+    background-repeat: no-repeat; /* repeat,no-repeat,repeat-x,repeat-y */
+    background-size: 50%; /* %,px,cover */
+    background-position: center 250px; /* x(left,center,right),y(top,center,bottom) */
+    /* css code => property: value */
+    /*background: brown url("../rasmlar/tabiat.jfif") no-repeat ;*/
+}
+.text{
+    color: white;
+    border: 5px solid white; /* solid,dashed,dotted,double,groove,ridge,outset,inset */
+    /*border-width: 5px;
+    border-style: solid;
+    border-color: white;*/
+    /*border-top-width: 6px;
+    border-right-width: 8px;
+    border-bottom-width: 9px;
+    border-left-width: 4px;
+    border-top-style: double;
+    border-right-style: dotted;
+    border-bottom-style: groove;
+    border-left-style: dashed;
+    border-top-color: green;
+    border-right-color: blue;
+    border-bottom-color: black;
+    border-left-color: aqua;*/
+    text-align: left; /* left(default - dastlabki holati),center,right,justify */
+    text-transform: none; /* none(default - dastlabki holati),lowercase,uppercase,capitalize */
+    text-decoration: none; /* none(default - dastlabki holati),underline,overline,line-through */
+    letter-spacing: 3px; /* matndagi harflar orasini ochib beradi */
+    word-spacing: 10px; /* matndagi so'zlar orasini ochib beradi */
+    line-height: 15px;  /* matndagi qatorlar orasini ochib beradi */
+}
+
+.block{
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    /*min-width: 50px;*/
+    /*min-height: 50px;*/
+    /*max-width: 500px;*/
+    /*max-height: 150px;*/
+    /*margin: 50px 150px 25px 10px;*/
+    /*margin-top: 150px;*/
+    /*margin-right: 150px;*/
+    /*margin-bottom: 25px;*/
+    /*margin-left: 150px;*/
+    margin: 100px auto;
+    padding: 50px 100px 50px 100px;
+    /*padding-top: 50px;*/
+    /*padding-right: 150px;*/
+    /*padding-bottom: 25px;*/
+    /*padding-left: 110px;*/
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
